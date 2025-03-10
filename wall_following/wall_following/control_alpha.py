@@ -29,8 +29,12 @@ class ControlAlpha(Node):
         self.Kd = 0.2  # Constante derivativa
         self.previous_error = 10.0  # Error anterior para calcular la derivada
         self.previous_time = self.get_clock().now()  # Tiempo anterior
-        self.min_speed = 0.5  # Velocidad mínima en m/s
-        self.max_speed = 1.5  # Velocidad máxima en m/s (ajustable según necesidad)
+        self.min_speed = 0.4  # Velocidad mínima en m/s
+        self.max_speed = 0.5  # Velocidad máxima en m/s (ajustable según necesidad)
+
+        # Rango de error esperado
+        self.error_min = -11.0
+        self.error_max = 11.0
 
         self.get_logger().info("Nodo control_alpha iniciado correctamente.")
 
@@ -46,16 +50,21 @@ class ControlAlpha(Node):
         # Si el error es grande (lejos de 0), disminuimos la velocidad
         speed = max(self.min_speed, self.max_speed - abs(error))
 
+        # Normalizar el error en el rango [-1, 1]
+        normalized_error = max(-1.0, min(1.0, error / self.error_max))
+
         # Calcular el tiempo transcurrido
         current_time = self.get_clock().now()
         delta_time = (current_time - self.previous_time).nanoseconds / 1e9  # Convertir a segundos
 
         # Calcular la derivada del error
-        derivative_error = (error - self.previous_error) / delta_time if delta_time > 0 else 0.0
+        derivative_error = (normalized_error - self.previous_error) / delta_time if delta_time > 0 else 0.0
 
         # Control proporcional y derivativo (PD)
-        angular_velocity = self.Kp * error + self.Kd * derivative_error
+        angular_velocity = self.Kp * normalized_error + self.Kd * derivative_error
 
+        # Asegurar que angular_velocity esté en [-1, 1]
+        angular_velocity = max(-1.0, min(1.0, angular_velocity))
 
         # Crear el mensaje Twist con los comandos calculados
         cmd_vel_msg = Twist()
@@ -69,7 +78,7 @@ class ControlAlpha(Node):
         self.get_logger().info(f"Comando enviado: angular={angular_velocity}, lineal={speed}")
 
         # Actualizar el error y el tiempo anteriores
-        self.previous_error = error
+        self.previous_error = normalized_error
         self.previous_time = current_time
 
 def main(args=None):

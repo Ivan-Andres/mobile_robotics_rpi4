@@ -35,14 +35,6 @@ private:
             publisher_->publish(twist_msg);
 
         }
-        else{
-            // Crear mensaje de tipo Twist
-            auto twist_msg = geometry_msgs::msg::Twist();
-            twist_msg.linear.x = 0.0;
-            twist_msg.angular.z = 0.0;
-
-            publisher_->publish(twist_msg);
-        }
         
     }
 };

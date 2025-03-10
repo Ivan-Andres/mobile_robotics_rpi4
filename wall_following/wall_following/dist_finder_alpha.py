@@ -41,11 +41,11 @@ class DistFinderAlpha(Node):
 
         # Calcular los índices de los ángulos de interés (85 y 90 grados)
         theta = 15  # Diferencia angular entre 85 y 90 grados
-        angle_65_deg = math.radians(-75)
-        angle_90_deg = math.radians(-90)
-        angle_652_deg = math.radians(75)
-        angle_902_deg = math.radians(90)
-        angle_0_deg = math.radians(0)
+        angle_65_deg = math.radians(15)
+        angle_90_deg = math.radians(0)
+        angle_652_deg = math.radians(165)
+        angle_902_deg = math.radians(179)
+        angle_0_deg = math.radians(90)
 
 
         index_65 = int((angle_65_deg - angle_min) / angle_increment)
@@ -86,21 +86,22 @@ class DistFinderAlpha(Node):
             self.get_logger().info(
                     f"distancia al muro derecho: {distancia_muro:.2f} , distancia al muro derecho futura: {distancia_muro_2:.2f} "
                     f"distancia al muro izquierdo: {distancia_muro2:.2f} , distancia al muro izquierdo futura: {distancia_muro_22:.2f} "
+                    f"distancia al frente:  {frente:.2f}"
                 )
 
-            if ((distancia_muro2 > 3.0 and distancia_muro2 < 4.0 and self.contador >=180) and (not(self.hay_muro))):
-               self.hay_muro = True
-               self.setpoint_transicion = distancia_muro2
+            # if ((distancia_muro2 > 3.0 and distancia_muro2 < 4.0 and self.contador >=180) and (not(self.hay_muro))):
+            #    self.hay_muro = True
+            #    self.setpoint_transicion = distancia_muro2
 
             if (not(self.hay_muro)):
 
                 # Calcular el error
                 error = (self.setpoint - distancia_muro_2)
 
-                self.contador = self.contador+1
+                self.contador = self.contador + 1
 
-                if ((frente < 2.0) & (distancia_muro < 2.0)):
-                    msg_out.data = 10.0  # Publicamos distancia y ángulo en grados
+                if ((frente < 1.0) & (distancia_muro < 2.0)):
+                    msg_out.data = 1.0  # Publicamos distancia y ángulo en grados
 
                     # Publicar el mensaje
                     self.publisher.publish(msg_out)
@@ -118,7 +119,7 @@ class DistFinderAlpha(Node):
                 error2 = -(self.setpoint_transicion - distancia_muro_22)
 
                 if ((frente < 2.0) & (distancia_muro2 < 2.0)):
-                    msg_out.data = -10.0  # Publicamos distancia y ángulo en grados
+                    msg_out.data = -1.0  # Publicamos distancia y ángulo en grados
 
                     # Publicar el mensaje
                     self.publisher.publish(msg_out)
