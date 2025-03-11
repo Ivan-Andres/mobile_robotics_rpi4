@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1f7be56a48901c733175.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mobile_robotics",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "AEBS_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AEBS_node-8f0149119ccc63b53274.json",
+					"name" : "AEBS_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "comand_joy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-comand_joy-81b73434cd6325b10ecf.json",
+					"name" : "comand_joy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mobile_robotics_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mobile_robotics_uninstall-374f79aa73adbcd72451.json",
+					"name" : "mobile_robotics_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-634a68d5fd852d4ccb0d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/samugc/mobile_robotics_rpi4/build/mobile_robotics",
+		"source" : "/home/samugc/mobile_robotics_rpi4/mobile_robotics"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

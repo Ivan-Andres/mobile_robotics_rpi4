@@ -1,0 +1,1 @@
+/home/samugc/mobile_robotics_rpi4/build/mobile_robotics/ament_cmake_core/mobile_roboticsConfig-version.cmake

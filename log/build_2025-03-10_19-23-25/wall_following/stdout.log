@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing wall_following.egg-info/PKG-INFO
+writing dependency_links to wall_following.egg-info/dependency_links.txt
+writing entry points to wall_following.egg-info/entry_points.txt
+writing requirements to wall_following.egg-info/requires.txt
+writing top-level names to wall_following.egg-info/top_level.txt
+reading manifest file 'wall_following.egg-info/SOURCES.txt'
+writing manifest file 'wall_following.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/samugc/mobile_robotics_rpi4/install/wall_following/lib/python3.10/site-packages/wall-following.egg-link (link to .)
+Installing control_alpha script to /home/samugc/mobile_robotics_rpi4/install/wall_following/lib/wall_following
+Installing dist_finder_alpha script to /home/samugc/mobile_robotics_rpi4/install/wall_following/lib/wall_following
+
+Installed /home/samugc/mobile_robotics_rpi4/build/wall_following
+running symlink_data

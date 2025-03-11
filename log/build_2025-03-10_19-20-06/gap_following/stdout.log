@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing gap_following.egg-info/PKG-INFO
+writing dependency_links to gap_following.egg-info/dependency_links.txt
+writing entry points to gap_following.egg-info/entry_points.txt
+writing requirements to gap_following.egg-info/requires.txt
+writing top-level names to gap_following.egg-info/top_level.txt
+reading manifest file 'gap_following.egg-info/SOURCES.txt'
+writing manifest file 'gap_following.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/samugc/mobile_robotics_rpi4/install/gap_following/lib/python3.10/site-packages/gap-following.egg-link (link to .)
+Installing control_alpha_gap script to /home/samugc/mobile_robotics_rpi4/install/gap_following/lib/gap_following
+Installing gap_finder script to /home/samugc/mobile_robotics_rpi4/install/gap_following/lib/gap_following
+
+Installed /home/samugc/mobile_robotics_rpi4/build/gap_following
+running symlink_data

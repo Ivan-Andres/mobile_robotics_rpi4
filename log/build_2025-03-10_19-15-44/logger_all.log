@@ -1,0 +1,360 @@
+[0.386s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.386s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x71e4c214b760>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71e4c2298640>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71e4c2298640>>, mixin_verb=('build',))
+[0.798s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.799s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.799s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.799s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.799s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.799s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.799s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/samugc/mobile_robotics_rpi4'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(car_control) by extensions ['ignore', 'ignore_ament_install']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(car_control) by extension 'ignore'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(car_control) by extension 'ignore_ament_install'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(car_control) by extensions ['colcon_pkg']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(car_control) by extension 'colcon_pkg'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(car_control) by extensions ['colcon_meta']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(car_control) by extension 'colcon_meta'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(car_control) by extensions ['ros']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(car_control) by extension 'ros'
+[0.841s] DEBUG:colcon.colcon_core.package_identification:Package 'car_control' with type 'ros.ament_python' and name 'car_control'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(gap_following) by extensions ['ignore', 'ignore_ament_install']
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(gap_following) by extension 'ignore'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(gap_following) by extension 'ignore_ament_install'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(gap_following) by extensions ['colcon_pkg']
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(gap_following) by extension 'colcon_pkg'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(gap_following) by extensions ['colcon_meta']
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(gap_following) by extension 'colcon_meta'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(gap_following) by extensions ['ros']
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(gap_following) by extension 'ros'
+[0.843s] DEBUG:colcon.colcon_core.package_identification:Package 'gap_following' with type 'ros.ament_python' and name 'gap_following'
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(mobile_robotics) by extensions ['ignore', 'ignore_ament_install']
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(mobile_robotics) by extension 'ignore'
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(mobile_robotics) by extension 'ignore_ament_install'
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(mobile_robotics) by extensions ['colcon_pkg']
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(mobile_robotics) by extension 'colcon_pkg'
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(mobile_robotics) by extensions ['colcon_meta']
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(mobile_robotics) by extension 'colcon_meta'
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(mobile_robotics) by extensions ['ros']
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(mobile_robotics) by extension 'ros'
+[0.847s] DEBUG:colcon.colcon_core.package_identification:Package 'mobile_robotics' with type 'ros.ament_cmake' and name 'mobile_robotics'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'ignore'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'ignore_ament_install'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extensions ['colcon_pkg']
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'colcon_pkg'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extensions ['colcon_meta']
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'colcon_meta'
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extensions ['ros']
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'ros'
+[0.850s] DEBUG:colcon.colcon_core.package_identification:Package 'rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(wall_following) by extensions ['ignore', 'ignore_ament_install']
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(wall_following) by extension 'ignore'
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(wall_following) by extension 'ignore_ament_install'
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(wall_following) by extensions ['colcon_pkg']
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(wall_following) by extension 'colcon_pkg'
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(wall_following) by extensions ['colcon_meta']
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(wall_following) by extension 'colcon_meta'
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(wall_following) by extensions ['ros']
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(wall_following) by extension 'ros'
+[0.853s] DEBUG:colcon.colcon_core.package_identification:Package 'wall_following' with type 'ros.ament_python' and name 'wall_following'
+[0.853s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.853s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.853s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.853s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.853s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.922s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/samugc/ros2_ws_2501_v2/install
+[0.923s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/samugc/Ros2-2025-01-mobile-robotics/install
+[0.924s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/samugc/ros2_ws_2501/install
+[0.925s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/samugc/ros2_ws/install
+[0.929s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 393 installed packages in /opt/ros/humble
+[0.936s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'car_control' build argument 'cmake_args' from command line to 'None'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'car_control' build argument 'cmake_target' from command line to 'None'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'car_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'car_control' build argument 'cmake_clean_cache' from command line to 'False'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'car_control' build argument 'cmake_clean_first' from command line to 'False'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'car_control' build argument 'cmake_force_configure' from command line to 'False'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'car_control' build argument 'ament_cmake_args' from command line to 'None'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'car_control' build argument 'catkin_cmake_args' from command line to 'None'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'car_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.028s] DEBUG:colcon.colcon_core.verb:Building package 'car_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samugc/mobile_robotics_rpi4/build/car_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samugc/mobile_robotics_rpi4/install/car_control', 'merge_install': False, 'path': '/home/samugc/mobile_robotics_rpi4/car_control', 'symlink_install': True, 'test_result_base': None}
+[1.028s] Level 5:colcon.colcon_core.verb:set package 'gap_following' build argument 'cmake_args' from command line to 'None'
+[1.028s] Level 5:colcon.colcon_core.verb:set package 'gap_following' build argument 'cmake_target' from command line to 'None'
+[1.028s] Level 5:colcon.colcon_core.verb:set package 'gap_following' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.028s] Level 5:colcon.colcon_core.verb:set package 'gap_following' build argument 'cmake_clean_cache' from command line to 'False'
+[1.028s] Level 5:colcon.colcon_core.verb:set package 'gap_following' build argument 'cmake_clean_first' from command line to 'False'
+[1.028s] Level 5:colcon.colcon_core.verb:set package 'gap_following' build argument 'cmake_force_configure' from command line to 'False'
+[1.028s] Level 5:colcon.colcon_core.verb:set package 'gap_following' build argument 'ament_cmake_args' from command line to 'None'
+[1.028s] Level 5:colcon.colcon_core.verb:set package 'gap_following' build argument 'catkin_cmake_args' from command line to 'None'
+[1.028s] Level 5:colcon.colcon_core.verb:set package 'gap_following' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.028s] DEBUG:colcon.colcon_core.verb:Building package 'gap_following' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samugc/mobile_robotics_rpi4/build/gap_following', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samugc/mobile_robotics_rpi4/install/gap_following', 'merge_install': False, 'path': '/home/samugc/mobile_robotics_rpi4/gap_following', 'symlink_install': True, 'test_result_base': None}
+[1.029s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotics' build argument 'cmake_args' from command line to 'None'
+[1.029s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotics' build argument 'cmake_target' from command line to 'None'
+[1.029s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.029s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotics' build argument 'cmake_clean_cache' from command line to 'False'
+[1.029s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotics' build argument 'cmake_clean_first' from command line to 'False'
+[1.030s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotics' build argument 'cmake_force_configure' from command line to 'False'
+[1.030s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotics' build argument 'ament_cmake_args' from command line to 'None'
+[1.030s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotics' build argument 'catkin_cmake_args' from command line to 'None'
+[1.030s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.030s] DEBUG:colcon.colcon_core.verb:Building package 'mobile_robotics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samugc/mobile_robotics_rpi4/build/mobile_robotics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samugc/mobile_robotics_rpi4/install/mobile_robotics', 'merge_install': False, 'path': '/home/samugc/mobile_robotics_rpi4/mobile_robotics', 'symlink_install': True, 'test_result_base': None}
+[1.031s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[1.031s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[1.031s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.031s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.031s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.031s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.031s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.031s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.031s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.031s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samugc/mobile_robotics_rpi4/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samugc/mobile_robotics_rpi4/install/rplidar_ros', 'merge_install': False, 'path': '/home/samugc/mobile_robotics_rpi4/rplidar_ros', 'symlink_install': True, 'test_result_base': None}
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'wall_following' build argument 'cmake_args' from command line to 'None'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'wall_following' build argument 'cmake_target' from command line to 'None'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'wall_following' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'wall_following' build argument 'cmake_clean_cache' from command line to 'False'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'wall_following' build argument 'cmake_clean_first' from command line to 'False'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'wall_following' build argument 'cmake_force_configure' from command line to 'False'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'wall_following' build argument 'ament_cmake_args' from command line to 'None'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'wall_following' build argument 'catkin_cmake_args' from command line to 'None'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'wall_following' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.032s] DEBUG:colcon.colcon_core.verb:Building package 'wall_following' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samugc/mobile_robotics_rpi4/build/wall_following', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samugc/mobile_robotics_rpi4/install/wall_following', 'merge_install': False, 'path': '/home/samugc/mobile_robotics_rpi4/wall_following', 'symlink_install': True, 'test_result_base': None}
+[1.033s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.034s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.035s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/samugc/mobile_robotics_rpi4/car_control' with build type 'ament_python'
+[1.035s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_control', 'ament_prefix_path')
+[1.047s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samugc/mobile_robotics_rpi4/install/car_control/share/car_control/hook/ament_prefix_path.ps1'
+[1.049s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samugc/mobile_robotics_rpi4/install/car_control/share/car_control/hook/ament_prefix_path.dsv'
+[1.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samugc/mobile_robotics_rpi4/install/car_control/share/car_control/hook/ament_prefix_path.sh'
+[1.052s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.052s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.060s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/samugc/mobile_robotics_rpi4/gap_following' with build type 'ament_python'
+[1.061s] Level 1:colcon.colcon_core.shell:create_environment_hook('gap_following', 'ament_prefix_path')
+[1.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samugc/mobile_robotics_rpi4/install/gap_following/share/gap_following/hook/ament_prefix_path.ps1'
+[1.062s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samugc/mobile_robotics_rpi4/install/gap_following/share/gap_following/hook/ament_prefix_path.dsv'
+[1.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samugc/mobile_robotics_rpi4/install/gap_following/share/gap_following/hook/ament_prefix_path.sh'
+[1.064s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.064s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.076s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/samugc/mobile_robotics_rpi4/mobile_robotics' with build type 'ament_cmake'
+[1.076s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samugc/mobile_robotics_rpi4/mobile_robotics'
+[1.076s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.077s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.090s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/samugc/mobile_robotics_rpi4/rplidar_ros' with build type 'ament_cmake'
+[1.090s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samugc/mobile_robotics_rpi4/rplidar_ros'
+[1.091s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.091s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.727s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/samugc/mobile_robotics_rpi4/car_control'
+[1.728s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.728s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.391s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/samugc/mobile_robotics_rpi4/gap_following'
+[2.392s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.392s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samugc/mobile_robotics_rpi4/build/mobile_robotics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samugc/Ros2-2025-01-mobile-robotics/install/joy_tester:/home/samugc/ros2_ws_2501/install/test_pkg:/home/samugc/ros2_ws_2501/install/ldr_pkg:/home/samugc/ros2_ws_2501/install/joy_tester:/home/samugc/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/samugc/mobile_robotics_rpi4/mobile_robotics -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/samugc/mobile_robotics_rpi4/install/mobile_robotics
+[2.415s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samugc/mobile_robotics_rpi4/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samugc/Ros2-2025-01-mobile-robotics/install/joy_tester:/home/samugc/ros2_ws_2501/install/test_pkg:/home/samugc/ros2_ws_2501/install/ldr_pkg:/home/samugc/ros2_ws_2501/install/joy_tester:/home/samugc/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/samugc/mobile_robotics_rpi4/rplidar_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/samugc/mobile_robotics_rpi4/install/rplidar_ros
+[3.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samugc/mobile_robotics_rpi4/build/car_control': PYTHONPATH=/home/samugc/mobile_robotics_rpi4/build/car_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samugc/mobile_robotics_rpi4/install/car_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/samugc/mobile_robotics_rpi4/build/car_control/build --no-deps symlink_data
+[3.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samugc/mobile_robotics_rpi4/build/gap_following': PYTHONPATH=/home/samugc/mobile_robotics_rpi4/build/gap_following/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samugc/mobile_robotics_rpi4/install/gap_following/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/samugc/mobile_robotics_rpi4/build/gap_following/build --no-deps symlink_data
+[5.459s] Level 1:colcon.colcon_core.shell:create_environment_hook('gap_following', 'pythonpath_develop')
+[5.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samugc/mobile_robotics_rpi4/build/gap_following/share/gap_following/hook/pythonpath_develop.ps1'
+[5.461s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samugc/mobile_robotics_rpi4/build/gap_following' returned '0': PYTHONPATH=/home/samugc/mobile_robotics_rpi4/build/gap_following/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samugc/mobile_robotics_rpi4/install/gap_following/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/samugc/mobile_robotics_rpi4/build/gap_following/build --no-deps symlink_data
+[5.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samugc/mobile_robotics_rpi4/build/gap_following/share/gap_following/hook/pythonpath_develop.dsv'
+[5.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samugc/mobile_robotics_rpi4/build/gap_following/share/gap_following/hook/pythonpath_develop.sh'
+[5.477s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/gap_following' for CMake module files
+[5.478s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/gap_following' for CMake config files
+[5.479s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/gap_following/lib'
+[5.479s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/gap_following/bin'
+[5.480s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/gap_following/lib/pkgconfig/gap_following.pc'
+[5.480s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/gap_following/lib/python3.10/site-packages'
+[5.480s] Level 1:colcon.colcon_core.shell:create_environment_hook('gap_following', 'pythonpath')
+[5.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samugc/mobile_robotics_rpi4/install/gap_following/share/gap_following/hook/pythonpath.ps1'
+[5.482s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samugc/mobile_robotics_rpi4/install/gap_following/share/gap_following/hook/pythonpath.dsv'
+[5.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samugc/mobile_robotics_rpi4/install/gap_following/share/gap_following/hook/pythonpath.sh'
+[5.484s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/gap_following/bin'
+[5.484s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gap_following)
+[5.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/samugc/mobile_robotics_rpi4/install/gap_following/share/gap_following/package.ps1'
+[5.487s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samugc/mobile_robotics_rpi4/install/gap_following/share/gap_following/package.dsv'
+[5.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/samugc/mobile_robotics_rpi4/install/gap_following/share/gap_following/package.sh'
+[5.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/samugc/mobile_robotics_rpi4/install/gap_following/share/gap_following/package.bash'
+[5.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/samugc/mobile_robotics_rpi4/install/gap_following/share/gap_following/package.zsh'
+[5.496s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samugc/mobile_robotics_rpi4/install/gap_following/share/colcon-core/packages/gap_following)
+[5.497s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/samugc/mobile_robotics_rpi4/wall_following' with build type 'ament_python'
+[5.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('wall_following', 'ament_prefix_path')
+[5.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samugc/mobile_robotics_rpi4/install/wall_following/share/wall_following/hook/ament_prefix_path.ps1'
+[5.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samugc/mobile_robotics_rpi4/install/wall_following/share/wall_following/hook/ament_prefix_path.dsv'
+[5.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samugc/mobile_robotics_rpi4/install/wall_following/share/wall_following/hook/ament_prefix_path.sh'
+[5.502s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.502s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.523s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_control', 'pythonpath_develop')
+[5.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samugc/mobile_robotics_rpi4/build/car_control/share/car_control/hook/pythonpath_develop.ps1'
+[5.525s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samugc/mobile_robotics_rpi4/build/car_control' returned '0': PYTHONPATH=/home/samugc/mobile_robotics_rpi4/build/car_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samugc/mobile_robotics_rpi4/install/car_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/samugc/mobile_robotics_rpi4/build/car_control/build --no-deps symlink_data
+[5.526s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samugc/mobile_robotics_rpi4/build/car_control/share/car_control/hook/pythonpath_develop.dsv'
+[5.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samugc/mobile_robotics_rpi4/build/car_control/share/car_control/hook/pythonpath_develop.sh'
+[5.528s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/car_control' for CMake module files
+[5.529s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/car_control' for CMake config files
+[5.530s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/car_control/lib'
+[5.531s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/car_control/bin'
+[5.531s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/car_control/lib/pkgconfig/car_control.pc'
+[5.532s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/car_control/lib/python3.10/site-packages'
+[5.532s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_control', 'pythonpath')
+[5.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samugc/mobile_robotics_rpi4/install/car_control/share/car_control/hook/pythonpath.ps1'
+[5.533s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samugc/mobile_robotics_rpi4/install/car_control/share/car_control/hook/pythonpath.dsv'
+[5.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samugc/mobile_robotics_rpi4/install/car_control/share/car_control/hook/pythonpath.sh'
+[5.535s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/car_control/bin'
+[5.535s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_control)
+[5.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/samugc/mobile_robotics_rpi4/install/car_control/share/car_control/package.ps1'
+[5.537s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samugc/mobile_robotics_rpi4/install/car_control/share/car_control/package.dsv'
+[5.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/samugc/mobile_robotics_rpi4/install/car_control/share/car_control/package.sh'
+[5.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/samugc/mobile_robotics_rpi4/install/car_control/share/car_control/package.bash'
+[5.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/samugc/mobile_robotics_rpi4/install/car_control/share/car_control/package.zsh'
+[5.541s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samugc/mobile_robotics_rpi4/install/car_control/share/colcon-core/packages/car_control)
+[6.267s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/samugc/mobile_robotics_rpi4/wall_following'
+[6.267s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.268s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.991s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samugc/mobile_robotics_rpi4/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samugc/Ros2-2025-01-mobile-robotics/install/joy_tester:/home/samugc/ros2_ws_2501/install/test_pkg:/home/samugc/ros2_ws_2501/install/ldr_pkg:/home/samugc/ros2_ws_2501/install/joy_tester:/home/samugc/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/samugc/mobile_robotics_rpi4/rplidar_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/samugc/mobile_robotics_rpi4/install/rplidar_ros
+[7.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samugc/mobile_robotics_rpi4/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samugc/Ros2-2025-01-mobile-robotics/install/joy_tester:/home/samugc/ros2_ws_2501/install/test_pkg:/home/samugc/ros2_ws_2501/install/ldr_pkg:/home/samugc/ros2_ws_2501/install/joy_tester:/home/samugc/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/samugc/mobile_robotics_rpi4/build/rplidar_ros -- -j4 -l4
+[7.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samugc/mobile_robotics_rpi4/build/mobile_robotics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samugc/Ros2-2025-01-mobile-robotics/install/joy_tester:/home/samugc/ros2_ws_2501/install/test_pkg:/home/samugc/ros2_ws_2501/install/ldr_pkg:/home/samugc/ros2_ws_2501/install/joy_tester:/home/samugc/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/samugc/mobile_robotics_rpi4/mobile_robotics -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/samugc/mobile_robotics_rpi4/install/mobile_robotics
+[7.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samugc/mobile_robotics_rpi4/build/mobile_robotics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samugc/Ros2-2025-01-mobile-robotics/install/joy_tester:/home/samugc/ros2_ws_2501/install/test_pkg:/home/samugc/ros2_ws_2501/install/ldr_pkg:/home/samugc/ros2_ws_2501/install/joy_tester:/home/samugc/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/samugc/mobile_robotics_rpi4/build/mobile_robotics -- -j4 -l4
+[7.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samugc/mobile_robotics_rpi4/build/wall_following': PYTHONPATH=/home/samugc/mobile_robotics_rpi4/build/wall_following/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samugc/mobile_robotics_rpi4/install/wall_following/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/samugc/mobile_robotics_rpi4/build/wall_following/build --no-deps symlink_data
+[10.186s] Level 1:colcon.colcon_core.shell:create_environment_hook('wall_following', 'pythonpath_develop')
+[10.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samugc/mobile_robotics_rpi4/build/wall_following/share/wall_following/hook/pythonpath_develop.ps1'
+[10.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samugc/mobile_robotics_rpi4/build/wall_following' returned '0': PYTHONPATH=/home/samugc/mobile_robotics_rpi4/build/wall_following/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samugc/mobile_robotics_rpi4/install/wall_following/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/samugc/mobile_robotics_rpi4/build/wall_following/build --no-deps symlink_data
+[10.199s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samugc/mobile_robotics_rpi4/build/wall_following/share/wall_following/hook/pythonpath_develop.dsv'
+[10.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samugc/mobile_robotics_rpi4/build/wall_following/share/wall_following/hook/pythonpath_develop.sh'
+[10.201s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/wall_following' for CMake module files
+[10.215s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/wall_following' for CMake config files
+[10.216s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/wall_following/lib'
+[10.217s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/wall_following/bin'
+[10.217s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/wall_following/lib/pkgconfig/wall_following.pc'
+[10.223s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/wall_following/lib/python3.10/site-packages'
+[10.224s] Level 1:colcon.colcon_core.shell:create_environment_hook('wall_following', 'pythonpath')
+[10.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samugc/mobile_robotics_rpi4/install/wall_following/share/wall_following/hook/pythonpath.ps1'
+[10.231s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samugc/mobile_robotics_rpi4/install/wall_following/share/wall_following/hook/pythonpath.dsv'
+[10.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samugc/mobile_robotics_rpi4/install/wall_following/share/wall_following/hook/pythonpath.sh'
+[10.233s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/wall_following/bin'
+[10.233s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wall_following)
+[10.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/samugc/mobile_robotics_rpi4/install/wall_following/share/wall_following/package.ps1'
+[10.244s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samugc/mobile_robotics_rpi4/install/wall_following/share/wall_following/package.dsv'
+[10.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/samugc/mobile_robotics_rpi4/install/wall_following/share/wall_following/package.sh'
+[10.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/samugc/mobile_robotics_rpi4/install/wall_following/share/wall_following/package.bash'
+[10.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/samugc/mobile_robotics_rpi4/install/wall_following/share/wall_following/package.zsh'
+[10.257s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samugc/mobile_robotics_rpi4/install/wall_following/share/colcon-core/packages/wall_following)
+[39.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samugc/mobile_robotics_rpi4/build/mobile_robotics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samugc/Ros2-2025-01-mobile-robotics/install/joy_tester:/home/samugc/ros2_ws_2501/install/test_pkg:/home/samugc/ros2_ws_2501/install/ldr_pkg:/home/samugc/ros2_ws_2501/install/joy_tester:/home/samugc/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/samugc/mobile_robotics_rpi4/build/mobile_robotics -- -j4 -l4
+[39.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samugc/mobile_robotics_rpi4/build/mobile_robotics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samugc/Ros2-2025-01-mobile-robotics/install/joy_tester:/home/samugc/ros2_ws_2501/install/test_pkg:/home/samugc/ros2_ws_2501/install/ldr_pkg:/home/samugc/ros2_ws_2501/install/joy_tester:/home/samugc/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/samugc/mobile_robotics_rpi4/build/mobile_robotics
+[39.788s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mobile_robotics)
+[39.789s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/mobile_robotics' for CMake module files
+[39.790s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/mobile_robotics' for CMake config files
+[39.793s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samugc/mobile_robotics_rpi4/build/mobile_robotics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samugc/Ros2-2025-01-mobile-robotics/install/joy_tester:/home/samugc/ros2_ws_2501/install/test_pkg:/home/samugc/ros2_ws_2501/install/ldr_pkg:/home/samugc/ros2_ws_2501/install/joy_tester:/home/samugc/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/samugc/mobile_robotics_rpi4/build/mobile_robotics
+[39.793s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobile_robotics', 'cmake_prefix_path')
+[39.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/mobile_robotics/hook/cmake_prefix_path.ps1'
+[39.795s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/mobile_robotics/hook/cmake_prefix_path.dsv'
+[39.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/mobile_robotics/hook/cmake_prefix_path.sh'
+[39.799s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/mobile_robotics/lib'
+[39.800s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/mobile_robotics/bin'
+[39.800s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/mobile_robotics/lib/pkgconfig/mobile_robotics.pc'
+[39.800s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/mobile_robotics/lib/python3.10/site-packages'
+[39.801s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/mobile_robotics/bin'
+[39.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/mobile_robotics/package.ps1'
+[39.805s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/mobile_robotics/package.dsv'
+[39.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/mobile_robotics/package.sh'
+[39.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/mobile_robotics/package.bash'
+[39.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/mobile_robotics/package.zsh'
+[39.811s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/colcon-core/packages/mobile_robotics)
+[39.812s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mobile_robotics)
+[39.816s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/mobile_robotics' for CMake module files
+[39.817s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/mobile_robotics' for CMake config files
+[39.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobile_robotics', 'cmake_prefix_path')
+[39.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/mobile_robotics/hook/cmake_prefix_path.ps1'
+[39.822s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/mobile_robotics/hook/cmake_prefix_path.dsv'
+[39.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/mobile_robotics/hook/cmake_prefix_path.sh'
+[39.824s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/mobile_robotics/lib'
+[39.827s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/mobile_robotics/bin'
+[39.828s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/mobile_robotics/lib/pkgconfig/mobile_robotics.pc'
+[39.828s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/mobile_robotics/lib/python3.10/site-packages'
+[39.828s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/mobile_robotics/bin'
+[39.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/mobile_robotics/package.ps1'
+[39.831s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/mobile_robotics/package.dsv'
+[39.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/mobile_robotics/package.sh'
+[39.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/mobile_robotics/package.bash'
+[39.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/mobile_robotics/package.zsh'
+[39.840s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/colcon-core/packages/mobile_robotics)
+[47.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samugc/mobile_robotics_rpi4/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samugc/Ros2-2025-01-mobile-robotics/install/joy_tester:/home/samugc/ros2_ws_2501/install/test_pkg:/home/samugc/ros2_ws_2501/install/ldr_pkg:/home/samugc/ros2_ws_2501/install/joy_tester:/home/samugc/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/samugc/mobile_robotics_rpi4/build/rplidar_ros -- -j4 -l4
+[47.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samugc/mobile_robotics_rpi4/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samugc/Ros2-2025-01-mobile-robotics/install/joy_tester:/home/samugc/ros2_ws_2501/install/test_pkg:/home/samugc/ros2_ws_2501/install/ldr_pkg:/home/samugc/ros2_ws_2501/install/joy_tester:/home/samugc/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/samugc/mobile_robotics_rpi4/build/rplidar_ros
+[48.123s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[48.123s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/rplidar_ros' for CMake module files
+[48.123s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samugc/mobile_robotics_rpi4/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samugc/Ros2-2025-01-mobile-robotics/install/joy_tester:/home/samugc/ros2_ws_2501/install/test_pkg:/home/samugc/ros2_ws_2501/install/ldr_pkg:/home/samugc/ros2_ws_2501/install/joy_tester:/home/samugc/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/samugc/mobile_robotics_rpi4/build/rplidar_ros
+[48.124s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/rplidar_ros' for CMake config files
+[48.124s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[48.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samugc/mobile_robotics_rpi4/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[48.125s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samugc/mobile_robotics_rpi4/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[48.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samugc/mobile_robotics_rpi4/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[48.126s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/rplidar_ros/lib'
+[48.126s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/rplidar_ros/bin'
+[48.126s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[48.126s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/rplidar_ros/lib/python3.10/site-packages'
+[48.126s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/rplidar_ros/bin'
+[48.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/samugc/mobile_robotics_rpi4/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[48.127s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samugc/mobile_robotics_rpi4/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[48.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/samugc/mobile_robotics_rpi4/install/rplidar_ros/share/rplidar_ros/package.sh'
+[48.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/samugc/mobile_robotics_rpi4/install/rplidar_ros/share/rplidar_ros/package.bash'
+[48.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/samugc/mobile_robotics_rpi4/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[48.129s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samugc/mobile_robotics_rpi4/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[48.129s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[48.130s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/rplidar_ros' for CMake module files
+[48.130s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/rplidar_ros' for CMake config files
+[48.130s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[48.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samugc/mobile_robotics_rpi4/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[48.131s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samugc/mobile_robotics_rpi4/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[48.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samugc/mobile_robotics_rpi4/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[48.132s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/rplidar_ros/lib'
+[48.132s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/rplidar_ros/bin'
+[48.132s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[48.132s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/rplidar_ros/lib/python3.10/site-packages'
+[48.133s] Level 1:colcon.colcon_core.environment:checking '/home/samugc/mobile_robotics_rpi4/install/rplidar_ros/bin'
+[48.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/samugc/mobile_robotics_rpi4/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[48.134s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samugc/mobile_robotics_rpi4/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[48.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/samugc/mobile_robotics_rpi4/install/rplidar_ros/share/rplidar_ros/package.sh'
+[48.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/samugc/mobile_robotics_rpi4/install/rplidar_ros/share/rplidar_ros/package.bash'
+[48.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/samugc/mobile_robotics_rpi4/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[48.137s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samugc/mobile_robotics_rpi4/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[48.150s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[48.151s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[48.151s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[48.151s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[48.180s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[48.180s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[48.180s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[48.205s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[48.206s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/samugc/mobile_robotics_rpi4/install/local_setup.ps1'
+[48.208s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/samugc/mobile_robotics_rpi4/install/_local_setup_util_ps1.py'
+[48.210s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/samugc/mobile_robotics_rpi4/install/setup.ps1'
+[48.212s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/samugc/mobile_robotics_rpi4/install/local_setup.sh'
+[48.213s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/samugc/mobile_robotics_rpi4/install/_local_setup_util_sh.py'
+[48.214s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/samugc/mobile_robotics_rpi4/install/setup.sh'
+[48.215s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/samugc/mobile_robotics_rpi4/install/local_setup.bash'
+[48.216s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/samugc/mobile_robotics_rpi4/install/setup.bash'
+[48.219s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/samugc/mobile_robotics_rpi4/install/local_setup.zsh'
+[48.220s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/samugc/mobile_robotics_rpi4/install/setup.zsh'

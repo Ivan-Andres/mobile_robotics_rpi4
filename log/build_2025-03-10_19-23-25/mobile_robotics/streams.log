@@ -1,0 +1,30 @@
+[0.731s] Invoking command in '/home/samugc/mobile_robotics_rpi4/build/mobile_robotics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samugc/Ros2-2025-01-mobile-robotics/install/joy_tester:/home/samugc/ros2_ws_2501/install/test_pkg:/home/samugc/ros2_ws_2501/install/ldr_pkg:/home/samugc/ros2_ws_2501/install/joy_tester:/home/samugc/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/samugc/mobile_robotics_rpi4/build/mobile_robotics -- -j4 -l4
+[0.862s] [ 25%] [32mBuilding CXX object CMakeFiles/comand_joy.dir/src/comand_joy.cpp.o[0m
+[0.881s] [ 75%] Built target AEBS_node
+[11.738s] [100%] [32m[1mLinking CXX executable comand_joy[0m
+[12.267s] [100%] Built target comand_joy
+[12.293s] Invoked command in '/home/samugc/mobile_robotics_rpi4/build/mobile_robotics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samugc/Ros2-2025-01-mobile-robotics/install/joy_tester:/home/samugc/ros2_ws_2501/install/test_pkg:/home/samugc/ros2_ws_2501/install/ldr_pkg:/home/samugc/ros2_ws_2501/install/joy_tester:/home/samugc/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/samugc/mobile_robotics_rpi4/build/mobile_robotics -- -j4 -l4
+[12.297s] Invoking command in '/home/samugc/mobile_robotics_rpi4/build/mobile_robotics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samugc/Ros2-2025-01-mobile-robotics/install/joy_tester:/home/samugc/ros2_ws_2501/install/test_pkg:/home/samugc/ros2_ws_2501/install/ldr_pkg:/home/samugc/ros2_ws_2501/install/joy_tester:/home/samugc/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/samugc/mobile_robotics_rpi4/build/mobile_robotics
+[12.307s] -- Install configuration: ""
+[12.308s] -- Execute custom install script
+[12.309s] -- Up-to-date symlink: /home/samugc/mobile_robotics_rpi4/install/mobile_robotics/lib/mobile_robotics/comand_joy
+[12.309s] -- Up-to-date symlink: /home/samugc/mobile_robotics_rpi4/install/mobile_robotics/lib/mobile_robotics/AEBS_node
+[12.310s] -- Up-to-date symlink: /home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/mobile_robotics//config/joystick.yaml
+[12.310s] -- Up-to-date symlink: /home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/mobile_robotics//config/twist_mux2.yaml
+[12.310s] -- Up-to-date symlink: /home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/mobile_robotics//launch/car_launch.launch.py
+[12.310s] -- Up-to-date symlink: /home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/ament_index/resource_index/package_run_dependencies/mobile_robotics
+[12.311s] -- Up-to-date symlink: /home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/ament_index/resource_index/parent_prefix_path/mobile_robotics
+[12.311s] -- Up-to-date symlink: /home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/mobile_robotics/environment/ament_prefix_path.sh
+[12.311s] -- Up-to-date symlink: /home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/mobile_robotics/environment/ament_prefix_path.dsv
+[12.312s] -- Up-to-date symlink: /home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/mobile_robotics/environment/path.sh
+[12.312s] -- Up-to-date symlink: /home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/mobile_robotics/environment/path.dsv
+[12.312s] -- Up-to-date symlink: /home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/mobile_robotics/local_setup.bash
+[12.312s] -- Up-to-date symlink: /home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/mobile_robotics/local_setup.sh
+[12.313s] -- Up-to-date symlink: /home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/mobile_robotics/local_setup.zsh
+[12.313s] -- Up-to-date symlink: /home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/mobile_robotics/local_setup.dsv
+[12.313s] -- Symlinking: /home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/mobile_robotics/package.dsv
+[12.323s] -- Up-to-date symlink: /home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/ament_index/resource_index/packages/mobile_robotics
+[12.324s] -- Up-to-date symlink: /home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/mobile_robotics/cmake/mobile_roboticsConfig.cmake
+[12.324s] -- Up-to-date symlink: /home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/mobile_robotics/cmake/mobile_roboticsConfig-version.cmake
+[12.324s] -- Up-to-date symlink: /home/samugc/mobile_robotics_rpi4/install/mobile_robotics/share/mobile_robotics/package.xml
+[12.327s] Invoked command in '/home/samugc/mobile_robotics_rpi4/build/mobile_robotics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samugc/Ros2-2025-01-mobile-robotics/install/joy_tester:/home/samugc/ros2_ws_2501/install/test_pkg:/home/samugc/ros2_ws_2501/install/ldr_pkg:/home/samugc/ros2_ws_2501/install/joy_tester:/home/samugc/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/samugc/mobile_robotics_rpi4/build/mobile_robotics

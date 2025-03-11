@@ -25,8 +25,8 @@ class GapFinder(Node):
         # Parámetros de configuración
         # Inicializar variables
         self.gap_setpoint = 0.0  # Setpoint basado en el ángulo medio del gap
-        self.angle_min = -65.0  # Grados
-        self.angle_max = 65.0   # Grados
+        self.angle_min = -65.0 + 90  # Grados
+        self.angle_max = 65.0 + 90   # Grados
         self.threshold = 4.0    # Umbral para considerar valores como obstáculos
         self.safety_radius = 0.3
 
@@ -204,8 +204,11 @@ class GapFinder(Node):
         current_gap = []
         
         for i, distance in enumerate(filtered_ranges):
-            angle = math.degrees(msg.angle_min + msg.angle_increment * (index_min + i))
-
+            # Calcular el ángulo del sensor
+            angle_sensor = math.degrees(msg.angle_min + msg.angle_increment * (index_min + i))
+            # Corregir el ángulo del sensor
+            angle_robot = angle_sensor-90
+            
             if distance == 0.0:
                 if current_gap:  # Si estamos en un gap y encontramos un 0, cerramos el gap
                     gaps.append(current_gap)
@@ -213,11 +216,11 @@ class GapFinder(Node):
             else:
                 if not current_gap:  # Si no estamos en un gap, inicializamos uno nuevo
                     current_gap = {
-                        "angles": [angle, angle],  # Guardamos el rango angular inicial y final
+                        "angles": [angle_robot, angle_robot],  # Guardamos el rango angular inicial y final
                         "distances": [distance],  # Guardamos la primera distancia del gap
                     }
                 else:
-                    current_gap["angles"][1] = angle  # Extendemos el rango angular
+                    current_gap["angles"][1] = angle_robot  # Extendemos el rango angular
                     current_gap["distances"].append(distance)  # Añadimos la distancia al gap actual
 
         # Añadir el último gap si quedó uno abierto
@@ -278,7 +281,7 @@ class GapFinder(Node):
 
         msg_out.data = self.gap_setpoint  # Publicamos distancia y ángulo en grados
 
-        # Publicar el mensaje
+        # Publicar el mensajeS
         self.publisher.publish(msg_out)
 
 

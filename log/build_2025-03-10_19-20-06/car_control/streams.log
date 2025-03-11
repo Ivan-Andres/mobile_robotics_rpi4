@@ -1,0 +1,17 @@
+[1.620s] Invoking command in '/home/samugc/mobile_robotics_rpi4/build/car_control': PYTHONPATH=/home/samugc/mobile_robotics_rpi4/build/car_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samugc/mobile_robotics_rpi4/install/car_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/samugc/mobile_robotics_rpi4/build/car_control/build --no-deps symlink_data
+[2.002s] running develop
+[2.246s] running egg_info
+[2.246s] writing car_control.egg-info/PKG-INFO
+[2.247s] writing dependency_links to car_control.egg-info/dependency_links.txt
+[2.247s] writing entry points to car_control.egg-info/entry_points.txt
+[2.247s] writing requirements to car_control.egg-info/requires.txt
+[2.247s] writing top-level names to car_control.egg-info/top_level.txt
+[2.251s] reading manifest file 'car_control.egg-info/SOURCES.txt'
+[2.252s] writing manifest file 'car_control.egg-info/SOURCES.txt'
+[2.255s] running build_ext
+[2.256s] Creating /home/samugc/mobile_robotics_rpi4/install/car_control/lib/python3.10/site-packages/car-control.egg-link (link to .)
+[2.257s] Installing car_control script to /home/samugc/mobile_robotics_rpi4/install/car_control/lib/car_control
+[2.257s] 
+[2.257s] Installed /home/samugc/mobile_robotics_rpi4/build/car_control
+[2.258s] running symlink_data
+[2.319s] Invoked command in '/home/samugc/mobile_robotics_rpi4/build/car_control' returned '0': PYTHONPATH=/home/samugc/mobile_robotics_rpi4/build/car_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samugc/mobile_robotics_rpi4/install/car_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/samugc/mobile_robotics_rpi4/build/car_control/build --no-deps symlink_data
