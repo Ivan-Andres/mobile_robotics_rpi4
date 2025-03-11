@@ -33,8 +33,8 @@ class ControlAlpha(Node):
         self.max_speed = 0.5  # Velocidad máxima en m/s (ajustable según necesidad)
         
         # Rango de error esperado
-        self.error_min = -11.0
-        self.error_max = 11.0
+        self.error_min = -1.1345
+        self.error_max = 1.1345
 
         self.get_logger().info("Nodo control_alpha iniciado correctamente.")
 

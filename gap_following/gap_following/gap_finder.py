@@ -25,8 +25,8 @@ class GapFinder(Node):
         # Parámetros de configuración
         # Inicializar variables
         self.gap_setpoint = 0.0  # Setpoint basado en el ángulo medio del gap
-        self.angle_min = -65.0 + 90  # Grados
-        self.angle_max = 65.0 + 90   # Grados
+        self.angle_min = 65.0 + 90  # Grados
+        self.angle_max = 90 - 65.0    # Grados
         self.threshold = 4.0    # Umbral para considerar valores como obstáculos
         self.safety_radius = 0.3
 
