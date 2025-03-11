@@ -1,3 +1,0 @@
-[console_scripts]
-car_control = car_control.car_control:main
-

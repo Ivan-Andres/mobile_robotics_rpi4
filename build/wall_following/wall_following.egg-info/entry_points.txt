@@ -1,4 +1,0 @@
-[console_scripts]
-control_alpha = wall_following.control_alpha:main
-dist_finder_alpha = wall_following.dist_finder_alpha:main
-

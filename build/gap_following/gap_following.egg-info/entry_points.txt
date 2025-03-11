@@ -1,4 +1,0 @@
-[console_scripts]
-control_alpha_gap = gap_following.control_alpha_gap:main
-gap_finder = gap_following.gap_finder:main
-
