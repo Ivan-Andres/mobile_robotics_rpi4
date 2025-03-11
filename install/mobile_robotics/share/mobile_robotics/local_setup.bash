@@ -1,1 +1,0 @@
-/home/samugc/mobile_robotics_rpi4/build/mobile_robotics/ament_cmake_environment_hooks/local_setup.bash

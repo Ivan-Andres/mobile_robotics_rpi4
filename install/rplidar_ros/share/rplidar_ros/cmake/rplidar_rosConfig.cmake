@@ -1,1 +1,0 @@
-/home/samugc/mobile_robotics_rpi4/build/rplidar_ros/ament_cmake_core/rplidar_rosConfig.cmake

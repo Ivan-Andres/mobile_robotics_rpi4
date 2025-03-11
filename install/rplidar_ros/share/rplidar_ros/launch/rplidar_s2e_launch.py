@@ -1,1 +1,0 @@
-/home/samugc/mobile_robotics_rpi4/rplidar_ros/launch/rplidar_s2e_launch.py
