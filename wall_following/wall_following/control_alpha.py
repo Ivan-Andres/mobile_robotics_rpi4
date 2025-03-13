@@ -25,8 +25,8 @@ class ControlAlpha(Node):
         )
 
         # Parámetros de control
-        self.Kp = 1.0  # Constante proporcional
-        self.Kd = 0.2  # Constante derivativa
+        self.Kp = 1.5  # Constante proporcional
+        self.Kd = 1.0  # Constante derivativa
         self.previous_error = 10.0  # Error anterior para calcular la derivada
         self.previous_time = self.get_clock().now()  # Tiempo anterior
         self.min_speed = 0.4  # Velocidad mínima en m/s

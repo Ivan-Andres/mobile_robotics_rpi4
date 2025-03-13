@@ -48,18 +48,18 @@ def generate_launch_description():
                     output='screen',
     )
 
-    lidar_aebs=Node(
-        package=package_name,  # Reemplaza 'tu_paquete' con el nombre de tu paquete
-        executable='AEBS_node',  # Nombre del ejecutable de tu nodo
-        output='screen'  # Esto hace que el nodo imprima en la consola
-    )
+    # lidar_aebs=Node(
+    #     package=package_name,  # Reemplaza 'tu_paquete' con el nombre de tu paquete
+    #     executable='AEBS_node',  # Nombre del ejecutable de tu nodo
+    #     output='screen'  # Esto hace que el nodo imprima en la consola
+    # )
 
     # Launch them all!
     return LaunchDescription([
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(rplidar_launch_file)
         ),
-        lidar_aebs,
+        # lidar_aebs,
         joy_node,
         comand_joy_node,
         twist_mux_node,

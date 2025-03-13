@@ -100,7 +100,7 @@ class DistFinderAlpha(Node):
 
                 self.contador = self.contador + 1
 
-                if ((frente < 1.0) & (distancia_muro < 2.0)):
+                if ((frente < 2.0) & (distancia_muro < 2.0)):
                     msg_out.data = 1.0  # Publicamos distancia y ángulo en grados
 
                     # Publicar el mensaje
