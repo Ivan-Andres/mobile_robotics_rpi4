@@ -61,22 +61,21 @@ private:
         double ttc_threshold = get_ttc_threshold(v_lidar);
 
         RCLCPP_WARN(this->get_logger(), "TTC = %.2f s, threshold = %.2f s", ttc, ttc_threshold );
-        if (v_lidar > 0.0) {
-            ttc = min_distance / v_lidar;
-            if (ttc < ttc_threshold && ttc >= 0) {
-                RCLCPP_WARN(this->get_logger(), "ttc menor a 2s. Frenando de emergencia.");
-                cmd_vel_msg.linear.x = -0.4;
-                cmd_vel_msg.angular.z = 0.0;
-                cmd_vel_pub_->publish(cmd_vel_msg);
-                return;
-            }
-        } else if (min_distance <= 0.2) {
-            RCLCPP_WARN(this->get_logger(), "Distancia menor a 0.2m. Frenando de emergencia.");
+        ttc = min_distance / 0.8;
+        if (ttc < 2.0 && ttc >= 0) {
+            RCLCPP_WARN(this->get_logger(), "ttc menor a 2s. Frenando de emergencia.");
             cmd_vel_msg.linear.x = -0.4;
             cmd_vel_msg.angular.z = 0.0;
             cmd_vel_pub_->publish(cmd_vel_msg);
             return;
         }
+        // } else if (min_distance <= 0.2) {
+        //     RCLCPP_WARN(this->get_logger(), "Distancia menor a 0.2m. Frenando de emergencia.");
+        //     cmd_vel_msg.linear.x = -0.4;
+        //     cmd_vel_msg.angular.z = 0.0;
+        //     cmd_vel_pub_->publish(cmd_vel_msg);
+        //     return;
+        // }
 
         RCLCPP_INFO(this->get_logger(), "Velocidad segura. No se requiere frenado.");
     }

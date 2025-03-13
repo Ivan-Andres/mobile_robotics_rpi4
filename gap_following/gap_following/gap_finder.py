@@ -27,7 +27,7 @@ class GapFinder(Node):
         self.gap_setpoint = 0.0  # Setpoint basado en el ángulo medio del gap
         self.angle_min = 25.0  # Grados
         self.angle_max = 155.0    # Grados
-        self.threshold = 0.5    # Umbral para considerar valores como obstáculos
+        self.threshold = 1.0    # Umbral para considerar valores como obstáculos
         self.safety_radius = 0.3
 
         self.get_logger().info("Nodo GapFinder iniciado correctamente.")
